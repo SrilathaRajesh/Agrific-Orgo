@@ -1,0 +1,125 @@
+body {
+
+    box-sizing: border-box;
+    /* align-items: center; */
+}
+
+#mainimage {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+}
+
+#quote {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+}
+
+#quotewriter {
+    float: right;
+    font-weight: bolder;
+    color: green;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#name {
+    font-style: italic;
+    font-size: xx-large;
+    color: forestgreen;
+    font-weight: bold;
+}
+.carousel-item{
+    width: 999px;
+    height: 500px;
+    max-width: 100%;
+   } 
+   /* .slide{
+       width: 999px;
+       height: 400px;   
+       max-width: 100%;
+   }  */
+   .card-img-top {
+       margin: 10px;
+       padding: 10px 10px 0px 10px;
+       width: 260px;
+       height: 220px;
+   }
+   
+/* .container {
+    padding: 10px;
+    margin: 10px;
+} */
+.organiccol8 {
+    padding: 20px;
+}
+.col-md-3 {
+    padding-top: 20px;
+    border: 1px solid silver;
+    margin: 20px;
+}
+.indus {
+    margin: 20px;
+}
+h5 {
+    padding: 20px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .col-1 {
+        width:100%;
+    }
+    .col-2 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 601px) {
+    .col-1 {
+        width: 50%;
+        position: relative;
+    }
+     #mainimage{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+     }
+     #quote{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+     }
+    .col-2 {
+        width: 50%;
+        padding: 50px;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .maincontainer{
+        position: relative;
+        top:50%;
+        clear: both;
+    }
+}
+.farmersheading{
+    font-weight: bold;
+    color: forestgreen;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    text-decoration:underline;
+}
+.farmerscard{
+    margin: 10px;
+    padding: 10px;
+}
+.signclass{
+    text-align: center;
+    color: forestgreen;
+    font-weight: bold;
+    font-size: xxx-large;
+    font-style: italic;
+}
